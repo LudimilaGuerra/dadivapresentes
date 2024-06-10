@@ -1,0 +1,306 @@
+.logo{
+    font-family: "brown sugar";
+    font-size: 35px;
+    color: #698a5b;
+    margin-top: 10px;
+}
+
+.sublogo{
+    font-family: "alta regular";
+    font-size: 12px;
+    color: #698a5b;
+}
+
+.logova{
+    font-family: "brown sugar";
+    font-size: 35px;
+    color: #698a5b;
+    position: relative;
+    top: 1px;
+    right: 65%;
+    margin: 0%;
+}
+
+.image-container{
+    position: relative;
+    right: 10%;
+}
+
+table{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px;
+    
+}
+
+.alogo{
+    text-decoration: none;
+    color: #698a5b;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #fff;
+    z-index: 1000;
+    padding-top: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+    background-color: white;
+    padding-bottom: 0;
+    border-radius: 5px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    position: relative;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    display: block;
+    padding: 10px 20px;
+    color: #698a5b;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #698a5b;
+    color: #fff;
+    border-radius: 5px 5px 5px 5px;
+}
+
+nav ul li ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+
+    padding: 0;
+    margin: 0;
+    border-radius: 0 5px 5px 5px;
+}
+
+nav ul li:hover ul {
+    display: block;
+}
+
+nav ul li ul li {
+    width: 200px;
+}
+
+nav ul li ul li a {
+    padding: 10px;
+}
+
+.menu {
+    font-family: "alta regular";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.asub {
+    color: white;
+}
+
+.asub:hover {
+    background-color: gray;
+}
+
+.subseção {
+    background-color: #698a5b;
+    color: white;
+}
+
+.prod{
+    border-radius: 5px 5px 0 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 60px 0 0;
+    background-color: #f4f4f4;
+    justify-content: center;
+}
+
+image {
+    position: relative;
+    width: 96%;
+    max-width: 600px;
+    height: 200%;/* Defina a altura desejada para o carrossel */
+    margin: auto;
+    overflow: hidden;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.carousel-images {
+    display: flex;
+    width: 100%;/* A largura total será igual ao número de imagens multiplicado pela largura de cada imagem */
+}
+
+.carousel-images img {
+    width: 25%;
+    border-right: 0px solid #ddd;
+    object-fit: cover; /* Isso garante que as imagens se ajustem à altura definida do carrossel */
+}
+
+#botao1{
+    background-color: #698a5b;
+    padding: 10px;
+    color: white;
+    border-radius: 5px 5px 5px 5px;
+    margin: 4px auto;
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    left: 550px;
+    border: #fff;
+}
+
+#botao1:hover{
+    background-color: #666;
+    border: green;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 52px;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
+
+.rs{
+    list-style: none;
+    position: relative;
+    right: 10px;
+    left: 150px;
+    display: flex;
+}
+
+#wpp{
+    padding-left: 10px;
+}
+
+#pint{
+    padding-right: 10px;
+}
+
+#name{
+    padding-right: 30px;
+}
+
+button{
+    position: relative;
+    margin-top: 200px;
+    margin-bottom: 183px;
+    margin-left: 25px;
+    padding: 15px;
+    left: 400px;
+    color: white;
+    background-color: #698a5b;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.image4{
+    height: auto;
+    width: 240px;
+    display: flex;
+    position: relative;
+}
+
+.botao{
+    text-decoration: none;
+    color: white;
+}
+
+button:hover{
+    background-color: grey;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.card {
+    position: relative;
+    right: 0px;
+    left: 150px;
+    text-decoration: none;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.2s;
+    z-index: 1;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.card h2 {
+    font-size: 1.2em;
+    font-family: "alta regular";
+    color: #698a5b;
+    text-decoration: none;
+    margin: 15px 0;
+}
+
+.linkt{
+    text-decoration: none;
+}
+
+
+.card p {
+    font-size: 1em;
+    margin: 0 15px 15px;
+    color: #666;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    border-color: #698a5b;
+}
+
+.comunicado{
+    margin-top: 60px;
+}
+
+#p{
+    position: relative;
+    z-index: 2;
+    padding: 15px;
+    top: 100px;
+    color: #698a5b;
+}
+
+p{
+    margin: 100px;
+}
